@@ -1,3 +1,3 @@
 # nvimconf
-My neovim configuration
-x
+*My neovim configuration
+*x2
