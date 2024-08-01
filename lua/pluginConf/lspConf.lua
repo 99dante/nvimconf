@@ -3,7 +3,7 @@ require("mason").setup()
 
 --bridge
 require("mason-lspconfig").setup({
-	ensure_installed = { "lua_ls", "clangd" },
+  ensure_installed = {"lua_ls","clangd"}
 })
 
 --lspconfig

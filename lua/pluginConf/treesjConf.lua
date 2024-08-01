@@ -1,4 +1,2 @@
-require('treesj').setup({
-
-})
+require('treesj').setup({})
 
