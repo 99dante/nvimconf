@@ -7,5 +7,6 @@ require("pluginConf.telescopeConf")
 require("pluginConf.alphaConf")
 require("pluginConf.nvimsurroundConf")
 require("pluginConf.treesjConf")
+require("pluginConf.barbarConf")
 require("keymaps")
 
