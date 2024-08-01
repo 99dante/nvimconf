@@ -12,6 +12,7 @@ map("n", "<C-n>", ":Neotree filesystem reveal<CR>")
 map("n", "K", vim.lsp.buf.hover,opts)
 map('n', 'gd', vim.lsp.buf.definition,opts)
 map('n', '<leader>ca', vim.lsp.buf.code_action,opts)
+map('n', '<leader>gf', vim.lsp.buf.format,opts)
 
 --treesj
 map('n', '<leader>m',require('treesj').toggle)
