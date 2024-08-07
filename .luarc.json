@@ -4,5 +4,8 @@
         "opts",
         "ensure_installed",
         "nsure_installed"
+    ],
+    "diagnostics.disable": [
+        "different-requires"
     ]
 }

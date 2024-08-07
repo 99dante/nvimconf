@@ -6,7 +6,7 @@ map("n", "<leader>fb", require('telescope.builtin').buffers)
 map('n', '<C-;>', require('telescope.builtin').live_grep)
 
 --neotree
-map("n", "<C-n>", ":Neotree filesystem reveal<CR>")
+map("n", "<C-n>", ":Neotree filesystem reveal left<CR>")
 
 --lsp
 map("n", "K", vim.lsp.buf.hover,opts)
@@ -50,8 +50,6 @@ map('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
 --                 :BufferCloseAllButCurrentOrPinned
 --                 :BufferCloseBuffersLeft
 --                 :BufferCloseBuffersRight
--- Magic buffer-picking mode
-map('n', '<C-p>', '<Cmd>BufferPick<CR>', opts)
 -- Sort automatically by...
 map('n', '<leader>bb', '<Cmd>BufferOrderByBufferNumber<CR>', opts)
 map('n', '<leader>bn', '<Cmd>BufferOrderByName<CR>', opts)
