@@ -22,8 +22,19 @@ dashboard.section.buttons.val = {
 }
 
 local function footer()
-	return "Tip : Protection 4 is one of the strongest enchantments in the game"
+	local messages = {
+		"Tip: Protection 4 Is One Of The Strongest Enchantments In Minecraft!",
+		"If You Can Make It, Do It. If You Can't Make it, Learn It!",
+		"Be The Best Version Of Yourself!",
+		"This Has %20 Chance To Pop Up, Ur Lucky :)",
+		"Everything Is Important But First, Enjoy Your Life!",
+	}
+
+	local randomIndex = math.random(1, #messages)
+	return messages[randomIndex]
 end
+math.randomseed(os.time())
+
 
 dashboard.section.footer.val = footer()
 

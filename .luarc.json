@@ -6,6 +6,7 @@
         "nsure_installed"
     ],
     "diagnostics.disable": [
-        "different-requires"
+        "different-requires",
+        "redundant-return"
     ]
 }
